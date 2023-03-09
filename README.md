@@ -6,7 +6,5 @@ Sudoku is a great example of a Constraint Satisfaction Problem (CSP), which is a
 
 There are many ways to go about this but the backtracking algorithm is often used for CSP type problems and consists of a brute-force technique which incrementally builds candidates to a solution and abandons them once it is apparent a candidate cannot be reasonably used to reach a satisfactory conclusion. 
 
-This is the kind of pattern it follows: 
-![image](https://user-images.githubusercontent.com/84393679/224001087-f53f4208-351f-40c1-b8d7-fe043622542d.png)
-
-
+This is the kind of pattern it follows in a state space tree: 
+![image](https://user-images.githubusercontent.com/84393679/224001386-4a0c61ef-6b82-40b9-83f4-bbe35d6fb027.png)
