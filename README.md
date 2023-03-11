@@ -2,7 +2,7 @@
 
 Here, I use the backtracking algorithm as a brute-force technqiue to create a sudoku solver. 
 
-Sudoku is a great example of a Constraint Satisfaction Problem (CSP), which is a mathematical problem defined by a set of objects with states that have to satisfy constraints or limitations. 
+Sudoku is a great example of a Constraint Satisfaction Problem (CSP), a mathematical problem defined by a set of objects with states that have to satisfy constraints or limitations. 
 
 There are many ways to go about this but the backtracking algorithm is often used for CSP type problems and consists of a brute-force technique which incrementally builds candidates to a solution and abandons them once it is apparent a candidate cannot be reasonably used to reach a satisfactory conclusion. 
 
